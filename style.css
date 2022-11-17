@@ -1,0 +1,58 @@
+.main-container {
+    width: 100%;
+    border: 5px solid black;
+    padding: 5px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 10px;
+}
+
+.container-one, .container-two, .container-three  {
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+}
+
+.abc {
+    width: 100px;
+    height: 100px;
+}
+
+.a {
+    background-color: red;
+}
+
+.b {
+    background-color: green;
+}
+
+.c {
+    background-color: blue;
+}
+
+.d {
+    background-color: rgb(70, 0, 110);
+}
+
+.e {
+    background-color: rgb(58, 224, 7);
+}
+
+.f {
+    background-color: rgb(238, 156, 4);
+}
+
+.g {
+    border: 2px solid black;
+}
+
+.h {
+    border: 2px solid black;
+}
+
+.i {
+    border: 2px solid black;
+}
