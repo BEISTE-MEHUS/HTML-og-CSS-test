@@ -3,12 +3,17 @@
     border: 5px solid black;
     padding: 5px;
     box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
 .container-one, .container-two, .container-three  {
     width: 500px;
     height: 500px;
     border: 2px solid black;
+
 }
 
 .abc {
@@ -16,8 +21,9 @@
     height: 100px;
 }
 
-.a {
+.a{
     background-color: red;
+    
 }
 
 .b {
@@ -42,6 +48,7 @@
 
 .g {
     border: 2px solid black;
+    box-shadow: 5px 5px ;
 }
 
 .h {
@@ -50,4 +57,101 @@
 
 .i {
     border: 2px solid black;
+    box-shadow: 5px 5px ;
 }
+
+.container-one {
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+   flex-direction: column;
+} 
+
+.container-two {
+    background-image: linear-gradient(rgb(255, 0, 0), rgb(184, 165, 182), rgb(192, 255, 203));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    position: relative;
+
+}
+
+ .box1 {
+    background-color: rgb(0, 247, 255);
+    position: absolute;
+     top: 0px;
+     right: 0px;
+
+ }
+
+ .box2 {
+    background-color: rgb(0, 247, 255);
+    position: absolute;
+     top: 0px;
+     left: 0px;
+
+
+ }
+
+ .box3 {
+    background-color: rgb(0, 247, 255);
+    position: absolute;
+     bottom: 0px;
+     left: 0px;
+ }
+
+ .box4 {
+    background-color: rgb(0, 247, 255);
+    position: absolute;
+     bottom: 0px;
+     right: 0px;
+ }
+
+.container-three {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: column;
+   padding-right: 25px;
+}
+.a:hover{
+background-color: aqua;
+box-shadow: 5px 5px blue;
+}
+
+.b:hover {
+    background-color: aqua;
+    box-shadow: 5px 5px blue;
+}
+
+.c:hover{
+    background-color: aqua;
+    box-shadow: 5px 5px blue;
+}
+.e {
+
+    background-color: rgb(58, 224, 7);
+
+    transform: rotate(45deg);
+
+    animation: rotation 10s infinite linear;
+
+}
+
+@keyframes rotation {
+
+    from {
+
+      transform: rotate(0deg);
+
+    }
+
+    to {
+
+      transform: rotate(359deg);
+
+    }
